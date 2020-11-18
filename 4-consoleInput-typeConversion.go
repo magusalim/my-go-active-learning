@@ -18,7 +18,7 @@ func main() {
 
 	scanner := bufio.NewScanner(os.Stdin)
 
-	fmt.Printf("Type your birthyear: ")
+	fmt.Println("Type your birthyear: ")
 	scanner.Scan()
 	input, _ := strconv.ParseInt(scanner.Text(), 10, 64)
 
